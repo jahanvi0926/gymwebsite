@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahanvi's Gym Website</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        font-family: cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://cdn.pixabay.com/photo/2020/11/04/05/08/body-building-5711492_1280.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    } 
+    .left{
+        position: absolute;
+        left: 16px ;
+        top: 13px;
+        display: inline-block;
+
+    }
+    .mid{
+        display: block;
+        width: 45%;
+        margin: 34px auto ;
+    }
+    .right{
+        position: absolute;
+        right: 5px ;
+        top: 50px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 35px;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover{
+        color: aqua;
+        text-decoration: underline;
+        
+    }
+    .left img{
+        width: 139px;
+
+    }
+    .left div{
+        line-height: 19px;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+    }
+    .btn{
+         margin: 0px 9px;
+         background-color: black;
+         color: antiquewhite;
+         padding: 0px 0px ;
+         border: 3px solid grey;
+         font-size: 17px;
+         cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(130, 119, 119);
+    }
+    .container{
+        border: 8px solid white;
+        margin: 225px 250px 75px 250px;
+        padding: 40px;
+        width: 60%;
+        border-radius: 28px;
+        
+
+    }
+    .form-group input{
+         text-align: center;
+         display: block;
+         width: 400px;
+         padding: 1px;
+         border: 2px solid black;
+         margin: 11px auto;
+         font-size: 20px;
+         border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .bton{
+        display: block;
+        width: 25%;
+        margin: 15px auto;
+
+    }
+</style>
+<body>
+   <header class="header">
+    <div class="left"> 
+       
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR932cHVGSlDj19hdzW49q_CdhtCYBR3LXP8A&usqp=CAU">
+        <div> FITNESS FIRST</div>
+    </div>
+
+    <div class="mid"> 
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Facilities</a></li>
+           </ul>
+
+    </div>
+
+    <div class="right"> 
+       <button class="btn">CALL US  </button>
+       <button class="btn">EMAIL US </button>
+    </div>
+   </header> 
+   <div class="container">
+    <h1>Join the best Gym now</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name ">
+        </div><div class="form-group">
+            <input type="text" name="" placeholder="Enter your age ">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender ">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your phone number ">
+        </div>
+        <button class="bton">SUBMIT</button>
+    </form>
+   </div>
+   <div class="questions">
+    <h3>Frequently Asked Questions </h3>
+    <details>
+        <summary>How many outltes gym has ?</summary>
+        <p>Gym has 3 outltes . You can join according to your preference. </p>
+    </details>
+    <details>
+        <summary> Price for monthly membership ?</summary>
+        <p>Rs. 3000</p>
+    </details>
+    <details>
+        <summary> What are timings of gym?</summary>
+        <p>Gym ia open from 5:00 a.m to 10:00 pm at night .You can select timing as your choice.</p>
+    </details>
+  
+
+   </div>
+</body>
+</html>
